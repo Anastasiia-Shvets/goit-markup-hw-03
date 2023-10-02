@@ -214,7 +214,7 @@ img {
 }
 
 .features-menu-item {
-    width: calc((100% - 72) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -272,8 +272,9 @@ img {
 .team-item {
     background-color: #FFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72) / 4);
+    width: calc((100% - 72px) / 4);
 }
+
 .team-image {}
 
 
@@ -305,12 +306,10 @@ img {
 .portfolio {
     background-color: #FFF;
     padding: 120px 0;
-
-}
-
-.portfolio-one {
     border-top: none;
 }
+
+.portfolio-one {}
 
 .container-portfolio {
     padding: 32px 16px;
