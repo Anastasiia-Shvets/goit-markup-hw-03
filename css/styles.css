@@ -213,6 +213,10 @@ img {
     gap: 24px;
 }
 
+.features-menu-item {
+    width: calc((100% - 72) / 4);
+}
+
 .features-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -222,6 +226,7 @@ img {
     margin-bottom: 8px;
 }
 
+
 .features-item-text {
     color: #434455;
     font-size: 16px;
@@ -229,9 +234,6 @@ img {
     letter-spacing: 0.02em;
 }
 
-.features-menu-item {
-    width: calc((100% - 72) / 4);
-}
 
 
 /**===============================================*/
