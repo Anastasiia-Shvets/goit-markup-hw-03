@@ -210,10 +210,6 @@ img {
     gap: 24px;
 }
 
-.features-item:nth-child(n+1) {
-    width: calc((100% - 72) / 4);
-}
-
 .features-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -230,7 +226,9 @@ img {
     letter-spacing: 0.02em;
 }
 
-.features-menu-item {}
+.features-menu-item {
+    width: calc((100% - 72) / 4);
+}
 
 
 /**===============================================*/
@@ -269,10 +267,9 @@ img {
 .team-item {
     background-color: #FFF;
     border-radius: 0px 0px 4px 4px;
-}
-.team-image {
     width: calc((100% - 72) / 4);
 }
+.team-image {}
 
 
 .team-subtitle {
