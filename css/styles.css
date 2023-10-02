@@ -34,29 +34,19 @@ img {
     box-sizing: border-box;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 
 
 /*==============HEADER===============*/
 .header {
     color: #FFFFFF;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
 }
 
 .header-navigation {
@@ -199,11 +189,10 @@ img {
 
 .features {
     background-color: #FFFFFF;
-}
-
-.features-conteiner {
     padding: 120px 0;
 }
+
+.features-conteiner {}
 
 .features-list {
     display: flex;
@@ -228,6 +217,19 @@ img {
 
 .features-menu-item {
     width: calc((100% - 72) / 4);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 
@@ -306,10 +308,11 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    padding: 32px 16px;
 }
 
 .container-portfolio {
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px;
     text-align: left;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
