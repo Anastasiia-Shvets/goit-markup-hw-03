@@ -315,8 +315,8 @@ img {
 .container-portfolio {
     padding: 32px 16px;
     text-align: left;
-    border-top: none;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-title {
