@@ -302,19 +302,17 @@ img {
 .portfolio {
     background-color: #FFF;
     padding: 120px 0;
+
 }
 
 .portfolio-one {
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-    padding: 32px 16px;
 }
 
 .container-portfolio {
     padding: 32px 16px;
     text-align: left;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-title {
