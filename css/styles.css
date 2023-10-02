@@ -1,3 +1,17 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -192,19 +206,6 @@ img {
     padding: 120px 0;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .features-conteiner {}
 
@@ -313,8 +314,8 @@ img {
 .container-portfolio {
     padding: 32px 16px;
     text-align: left;
-    border: 1px solid #E7E9FC;
     border-top: none;
+    border: 1px solid #E7E9FC;
 }
 
 .portfolio-title {
