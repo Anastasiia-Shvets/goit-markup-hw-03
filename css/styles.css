@@ -251,7 +251,6 @@ img {
 .team-container {
     width: 264px;
     padding: 32px 0;
-    justify-content: center;
 }
 
 .team-titel {
@@ -276,7 +275,9 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
-.team-image {}
+.team-image {
+    width: 264px;
+}
 
 
 .team-subtitle {
