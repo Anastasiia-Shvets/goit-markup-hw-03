@@ -306,7 +306,6 @@ img {
 .portfolio {
     background-color: #FFF;
     padding: 120px 0;
-    border-top: none;
 }
 
 .portfolio-one {}
@@ -315,6 +314,7 @@ img {
     padding: 32px 16px;
     text-align: left;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-title {
